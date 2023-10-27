@@ -90,9 +90,9 @@ public class Bola implements Runnable {
 
 	private void colisao() {
 		if(bola.intersects(p1.jogador))
-			setxDirection(+1);
+			setxDirection(+5);
 		if(bola.intersects(p2.jogador))
-			setxDirection(-1);
+			setxDirection(-5);
 		
 	}
 

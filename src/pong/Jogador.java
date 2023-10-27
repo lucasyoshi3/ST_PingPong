@@ -73,15 +73,15 @@ public class Jogador implements Runnable {
 			break;
 		case 1:
 			if(e.getKeyCode() == KeyEvent.VK_W)
-				setyDirection(-1);
+				setyDirection(-2);
 			if(e.getKeyCode() == KeyEvent.VK_S)
-				setyDirection(1);
+				setyDirection(2);
 			break;
 		case 2:
 			if(e.getKeyCode() == KeyEvent.VK_UP)
-				setyDirection(-1);
+				setyDirection(-2);
 			if(e.getKeyCode() == KeyEvent.VK_DOWN)
-				setyDirection(1);
+				setyDirection(2);
 			break;
 		}
 	}
